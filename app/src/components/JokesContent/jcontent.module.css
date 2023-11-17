@@ -1,0 +1,23 @@
+.content {
+  height: 100vh;
+  background-image: linear-gradient(#b3e5fc, #e56190);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 80%;
+  height: 500px;
+  background-color: yellow;
+  display: flex;
+
+  box-shadow: 0 0 10px 10px rgba(63, 63, 63, 0.463);
+}
+
+.leftSide {
+  flex-grow: 3;
+}
+.rightSide {
+  flex-grow: 7;
+}
