@@ -11,13 +11,35 @@
   height: 500px;
   background-color: yellow;
   display: flex;
+  justify-content: center;
 
   box-shadow: 0 0 10px 10px rgba(63, 63, 63, 0.463);
 }
 
 .leftSide {
   flex-grow: 3;
+  flex-basis: 30%;
+
+  background-color: #9575cc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
+
+.leftTitle {
+  font-size: 40px;
+  color: #fff;
+  border: rgb(159, 105, 23, 0.5) 10px solid;
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 5px;
+}
+
 .rightSide {
   flex-grow: 7;
+  flex-basis: 70%;
+  background-color: #fff;
+  overflow: auto;
 }

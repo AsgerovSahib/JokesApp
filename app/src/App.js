@@ -1,12 +1,12 @@
-import JokesPage from "./pages/Jokespage";
 
+import JokesPage from "./pages/Jokespage";
 import "./pages/style/index.css"
 
 function App() {
   return (
     <>
-      <JokesPage></JokesPage>
-      salam
+      <JokesPage/>
+      salamm
     </>
   );
 }

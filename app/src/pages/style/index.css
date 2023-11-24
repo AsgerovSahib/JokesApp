@@ -1,5 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --mainPurple: #9575cc;
 }
